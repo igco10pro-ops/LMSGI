@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= "description" content= "Ejercicio 2 de HTML">
+    <meta name= "Nacho" content= "Nacho">
+    <title>Contenido incrustado y marcados en HTML</title>
+</head>
+<body>
+    
+    <h1 id="inicio">Descubriendo la naturaleza: imagen y video</h1>
+        <p>Esta pagina muestra cómo incrustrar contenido multimedia en HTML navegar entre secciones mediante marcadores (enlaces internos) </p>
+    
+    <nav>
+        <ul>
+            <li><a href="https://i.blogs.es/a67ec7/2ocieogpajb7dc4v3swws6d2zi/840_560.jpeg">Imagen</a></li>
+            <li><a href="https://www.youtube.com/watch?v=CptaXqVY6-E">Video</a></li>
+        </ul>
+    </nav>
+
+    <hr> 
+
+    
+    <a name="imagen"></a>
+    <h2 id="imagen">La imagen</h2>
+    <p>A continuación se muestra una imagen:</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGjESJmgrbWTI82wNPJwzldxTEDkAEFzzbWPouL7K7uA&s=10" alt="Imagen de Elden Ring" width="600" height="400">
+    
+    <hr>
+
+  <h2 id="video">El vídeo</h2>
+  <p>
+    Este vídeo de YouTube se ha incrustado con la etiqueta &lt;iframe&gt;,
+    usando el código de la opción «Compartir &gt; Insertar».
+  </p>
+  <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/CptaXqVY6-E"
+          title="Reproductor de vídeo de YouTube"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+  </iframe>
+  <p><a href="#imagen">↑ Ir a la imagen</a> | <a href="#inicio">Volver al inicio ↑</a></p>
+
+</body>
+</html>
